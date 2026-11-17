@@ -1,21 +1,47 @@
-# Rota Ciclo Costeira / Coastal Cycle Route
+# Rota Ciclo Costeira / Coastal Cycling Reference
 
-[Aplicativo / Live app](https://saipradikmallakuntla-tech.github.io/rota-ciclo-costeira/)
+[Site HTTPS / Live guide](https://saipradikmallakuntla-tech.github.io/rota-ciclo-costeira/) · [Guia completo / Full guide](index.md)
 
-PT: simulador educativo de tempo de pedal, com distância, velocidade, pausas e opção de volta. Interface, erros e resultados em PT/EN. Não traça rotas, não verifica ciclovias, clima, acessibilidade ou segurança. Nenhuma condição foi verificada em campo.
+## Português
 
-EN: educational cycling-time simulator with distance, speed, breaks and an optional return. PT/EN interface, errors and results. Not route navigation, a cycleway/weather/accessibility check, or a safety guarantee. No field verification.
+Guia documental de referência para organizar perguntas sobre um passeio de bicicleta no litoral. **Não é um aplicativo interativo, roteador, mapa de ciclovias ou garantia de segurança.** Não há rotas verificadas, previsão meteorológica ou condições de trânsito ao vivo. Números são exemplos fictícios, não velocidades recomendadas.
 
-## Run / Executar
+| Referência manual | Exemplo ilustrativo |
+| --- | --- |
+| Distância de ida informada | 12 km |
+| Velocidade média suposta | 15 km/h |
+| Tempo pedalando, sem pausas | 48 min |
+| Pausas totais escolhidas | 10 min |
+| Tempo total de ida | 58 min |
+| Ida e volta, com os mesmos 10 min de pausas totais | 106 min |
 
-Static HTML/CSS/JS with no build or external runtime dependencies. Serve this directory with `python3 -m http.server 8080`, then open http://localhost:8080/. GitHub Pages publishes `main` at `/`, with HTTPS enforced and no custom domain. `.nojekyll` disables Jekyll processing.
+- [ ] Confirmar trajeto, regras e condições locais em fontes responsáveis.
+- [ ] Conferir bicicleta, proteção, água, descanso e alternativa de retorno.
+- [ ] Não interpretar este exemplo como recomendação física ou autorização para pedalar.
 
-## Calculation / Cálculo
+O [guia completo](index.md) apresenta o método manual, limites e checklist ampliado. [Referência institucional de trânsito](https://www.gov.br/transportes/pt-br/assuntos/transito): ponto de partida para consulta, sem afirmar que uma rota específica foi validada.
 
-`total minutes = one-way km * (return ? 2 : 1) / km/h * 60 + total break minutes`.
+## English
 
-Finite inputs only: distance 0.1–500 km; speed 1–60 km/h; total breaks 0–720 min. Breaks are not doubled on a return trip. Rounding is for display only. Pure logic is exported from `core.js` for Node tests. Example: 12 km / 15 km/h + 10 min = 58 min; return = 106 min.
+A documentation-only reference for organising questions about a coastal bicycle outing. **Not an interactive app, route navigator, cycleway map or safety guarantee.** No verified routes, weather forecast or live traffic conditions are supplied. The figures above are fictional worked examples, not recommended speeds: 12 km at an assumed 15 km/h takes 48 riding minutes; adding 10 minutes of total breaks gives 58 minutes, or 106 minutes for a same-distance return.
 
-Reference link selected 2026-11-15: https://www.gov.br/transportes/pt-br/assuntos/transito . Consult current local regulations; this is not legal advice. Selection date is not a field-validation or official data-update date.
+- [ ] Confirm the route, applicable rules and local conditions with responsible sources.
+- [ ] Check bicycle, protection, water, rest and an alternative return option.
+- [ ] Do not treat an example as fitness advice or permission to ride.
 
-No analytics, network API, geolocation, login or persistent form-data storage. Language uses `?lang=en`; no personal data is added to URLs. The page includes working HTML navigation when JavaScript is off. See [NETWORK.md](NETWORK.md) and the hub's release report for verification scope.
+See the [full bilingual guide](index.md) for the manual method and its limits.
+
+## Rede recíproca / Reciprocal network
+
+- [Central / Hub](https://saipradikmallakuntla-tech.github.io/praia-digital-satellite-hub/)
+- [Maresia em Dia — manutenção / maintenance](https://saipradikmallakuntla-tech.github.io/maresia-em-dia/)
+- [Acesso à Praia — acesso / beach access](https://saipradikmallakuntla-tech.github.io/acesso-a-praia/)
+- [Costa em Contexto — fontes regionais / regional references](https://saipradikmallakuntla-tech.github.io/costa-em-contexto/)
+- [Balneabilidade Guia — água / bathing-water references](https://saipradikmallakuntla-tech.github.io/balneabilidade-guia/)
+- [Feiras e Serviços do Litoral — vida local / local-life references](https://saipradikmallakuntla-tech.github.io/feiras-e-servicos-litoral/)
+
+## Fonte e publicação / Source and publication
+
+Revisão editorial / Editorial revision: **2026-11-17**. This is a documentation revision date, not field verification or an official source-update date. Independent and reference-only; no official affiliation.
+
+Current main-branch source contains only README.md and index.md. NETWORK.md has been consolidated here and in the guide. No authored HTML, CSS, JavaScript, test scripts, tracking or form-data storage. GitHub Pages renders Markdown using its managed renderer from main root, with HTTPS and no custom domain or CNAME file. Generated website markup is not authored repository source. Earlier commits remain in Git history. Scope A preserves the four existing websites; only their README.md and NETWORK_DIRECTORY.md documentation is updated.
