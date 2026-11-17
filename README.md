@@ -1,47 +1,23 @@
 # Rota Ciclo Costeira / Coastal Cycling Reference
 
-[Site HTTPS / Live guide](https://saipradikmallakuntla-tech.github.io/rota-ciclo-costeira/) · [Guia completo / Full guide](index.md)
+[Guia publicado / Published guide](https://saipradikmallakuntla-tech.github.io/rota-ciclo-costeira/) · [Guia em Markdown / Markdown guide](index.md) · [Diretório / Directory](NETWORK_DIRECTORY.md)
 
-## Português
+## PT
 
-Guia documental de referência para organizar perguntas sobre um passeio de bicicleta no litoral. **Não é um aplicativo interativo, roteador, mapa de ciclovias ou garantia de segurança.** Não há rotas verificadas, previsão meteorológica ou condições de trânsito ao vivo. Números são exemplos fictícios, não velocidades recomendadas.
+Referência documental PT/EN para estimativa manual de tempo e preparação de perguntas antes de um passeio costeiro. O nome não significa rota verificada. Não há calculadora, navegação, distância medida, previsão, classificação de segurança ou recomendação de velocidade.
 
-| Referência manual | Exemplo ilustrativo |
-| --- | --- |
-| Distância de ida informada | 12 km |
-| Velocidade média suposta | 15 km/h |
-| Tempo pedalando, sem pausas | 48 min |
-| Pausas totais escolhidas | 10 min |
-| Tempo total de ida | 58 min |
-| Ida e volta, com os mesmos 10 min de pausas totais | 106 min |
+A fonte atual contém somente `README.md`, `index.md` e `NETWORK_DIRECTORY.md`. GitHub Pages continua em **main → /**, com HTTPS e sem domínio personalizado. O GitHub renderiza o Markdown; não são adicionados HTML, estilos, JavaScript, configurações ou scripts de publicação. Código histórico permanece apenas no histórico Git.
 
-- [ ] Confirmar trajeto, regras e condições locais em fontes responsáveis.
-- [ ] Conferir bicicleta, proteção, água, descanso e alternativa de retorno.
-- [ ] Não interpretar este exemplo como recomendação física ou autorização para pedalar.
+## EN
 
-O [guia completo](index.md) apresenta o método manual, limites e checklist ampliado. [Referência institucional de trânsito](https://www.gov.br/transportes/pt-br/assuntos/transito): ponto de partida para consulta, sem afirmar que uma rota específica foi validada.
+A bilingual documentation-only reference for manual time estimates and questions before a coastal ride. The name does not establish a verified route. There is no interactive calculator, navigation, measured distance, forecast, safety rating or recommended speed.
 
-## English
+Pages remains on **main → /** with HTTPS and no custom domain. The current source contains only the three Markdown documents listed above. Historical code remains in Git history; no web code or publication scripts are added.
 
-A documentation-only reference for organising questions about a coastal bicycle outing. **Not an interactive app, route navigator, cycleway map or safety guarantee.** No verified routes, weather forecast or live traffic conditions are supplied. The figures above are fictional worked examples, not recommended speeds: 12 km at an assumed 15 km/h takes 48 riding minutes; adding 10 minutes of total breaks gives 58 minutes, or 106 minutes for a same-distance return.
+## Checklist e limites / Checklist and limits
 
-- [ ] Confirm the route, applicable rules and local conditions with responsible sources.
-- [ ] Check bicycle, protection, water, rest and an alternative return option.
-- [ ] Do not treat an example as fitness advice or permission to ride.
+- [ ] Confirmar distância e trechos permitidos / Confirm distance and permitted sections.
+- [ ] Consultar avisos e condições oficiais / Consult official notices and conditions.
+- [ ] Planejar pausas e retorno / Plan breaks and return arrangements.
 
-See the [full bilingual guide](index.md) for the manual method and its limits.
-
-## Rede recíproca / Reciprocal network
-
-- [Central / Hub](https://saipradikmallakuntla-tech.github.io/praia-digital-satellite-hub/)
-- [Maresia em Dia — manutenção / maintenance](https://saipradikmallakuntla-tech.github.io/maresia-em-dia/)
-- [Acesso à Praia — acesso / beach access](https://saipradikmallakuntla-tech.github.io/acesso-a-praia/)
-- [Costa em Contexto — fontes regionais / regional references](https://saipradikmallakuntla-tech.github.io/costa-em-contexto/)
-- [Balneabilidade Guia — água / bathing-water references](https://saipradikmallakuntla-tech.github.io/balneabilidade-guia/)
-- [Feiras e Serviços do Litoral — vida local / local-life references](https://saipradikmallakuntla-tech.github.io/feiras-e-servicos-litoral/)
-
-## Fonte e publicação / Source and publication
-
-Revisão editorial / Editorial revision: **2026-11-17**. This is a documentation revision date, not field verification or an official source-update date. Independent and reference-only; no official affiliation.
-
-Current main-branch source contains only README.md and index.md. NETWORK.md has been consolidated here and in the guide. No authored HTML, CSS, JavaScript, test scripts, tracking or form-data storage. GitHub Pages renders Markdown using its managed renderer from main root, with HTTPS and no custom domain or CNAME file. Generated website markup is not authored repository source. Earlier commits remain in Git history. Scope A preserves the four existing websites; only their README.md and NETWORK_DIRECTORY.md documentation is updated.
+Revisão editorial / Editorial revision: **2026-11-17**, not a field-inspection or source-update date. Reference only, with six sibling links in the landing guide. The SEO audit and upstream/third-party repositories are excluded from changes.
